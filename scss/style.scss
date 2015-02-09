@@ -1,0 +1,15 @@
+/*This file imports all of the yout scss partials 
+to be copiled into one style sheet, whuch you can then attcach to your html.
+
+All files that are previxedd with an underscore
+"_name-of-dile.scss" are called partials - meaning
+their css isn't compiled unless its imported unto an unprefixed.scss file */
+
+// Import variables, mixins and other modules
+@import "base";
+@import "mixins";
+
+// Component rules
+@import "components/main";
+
+// 
